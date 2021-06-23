@@ -10,8 +10,8 @@ const {
   ON_GITHUB_PAGES,
 } = process.env;
 
-const basePath = ON_GITHUB_PAGES ? '/wallisconsultancy' : '';
-const assetPrefix = ON_GITHUB_PAGES ? '/wallisconsultancy/' : '';
+const basePath = ON_GITHUB_PAGES ? '/about_me' : '';
+const assetPrefix = ON_GITHUB_PAGES ? '/about_me/' : '';
 
 const env = {
   CANONICAL_URL: 'https://wallisfamilymediation.co.uk',
